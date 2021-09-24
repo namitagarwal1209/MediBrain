@@ -1,12 +1,14 @@
 import './App.css';
 import React from 'react';
-import Login from './Pages/DoctorLogin/doclogin';
+import DoctorLogin from './Pages/DoctorLogin/doclogin';
+import PatientLogin from './Pages/PatientLogin/patientlogin';
 
 function App() {
   return (
     <div className="App">
       <h1> MEDIBRAIN </h1>
-      <Login/>
+      <DoctorLogin/>
+      <PatientLogin/>
     </div>
   );
 }

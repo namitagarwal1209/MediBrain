@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import {Form,Button} from "react-bootstrap";
 //import "./doclogin.css";
 
-export default function Login(){
+export default function DoctorLogin(){
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
   
