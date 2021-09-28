@@ -6,7 +6,7 @@ export default function PatientLogin(){
     const [phoneNo, setphoneNo] = useState("");
   
     function validateForm(){
-      return phoneNo.length == 10; //if phoneNo entered correctly - 'generate otp' button gets validated
+      return phoneNo.length === 10; //if phoneNo entered correctly - 'generate otp' button gets validated
     }
 
     function handleSubmit(event){
